@@ -1,0 +1,184 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.logo-pics {
+    height: 40px;
+}
+.container{
+    height: 600px;
+}
+/* navbar */
+.logo {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    height: 80px;
+    transition: all 0.5s;
+    overflow: hidden;
+    flex-wrap: wrap;
+    background-color: rgba(57, 17, 122, 0.878);
+z-index: 2;
+}
+
+nav ul,
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+nav ul li a,
+.start {
+    text-decoration: none;
+    list-style: none;
+    margin: 0 30px;
+    color: rgb(206, 206, 206);
+}
+
+.nav-scrolled {
+    background-color: rgba(57, 17, 122, 0.878);
+    height: 60px;
+    z-index: 2;
+}
+
+ul {
+    margin-left: 100px;
+    font-weight: bold;
+
+}
+
+nav ul a:hover {
+    color: rgb(255, 255, 255);
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    letter-spacing: 2px;
+    font-size: 32px;
+    padding-left: 180px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.start{
+  margin:-10px 0 -10px 100px;
+
+}
+.start a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid rgb(116, 189, 231);
+  padding: 10px 20px;
+  border-radius: 6px;
+
+
+}
+
+.start a:hover {
+  background-color: #2F5DB5;
+   color: white;
+   transition: 0.3s ease-in-out;
+ 
+ }
+.threedot {
+    display: none;
+}
+
+.menu {
+    width: 30px;
+    display: none;
+}
+
+h1{
+  text-align: center;
+  font-family: Poppins;
+  
+}
+.pdf{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+iframe{
+  height: 600px;
+  width:1000px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+  /* footer start  */
+footer{
+    background-color: white;
+  }
+  .footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    opacity: 0.9;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+  .footer .row span{
+    font-weight: bolder;
+  }
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+      
+    .footer .row a:hover{
+    color:#fff;
+    }
+  
+   
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    } 
+  /* footer end  */
+  
+  

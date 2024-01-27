@@ -1,0 +1,160 @@
+<!-- The provided code is an HTML document that represents a web page. It includes the necessary HTML
+structure, head section, body section, and various elements such as links, images, and stylesheets. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon copy.ico" type="image/x-icon">
+    <title> StudyShere - Your Online Guide</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="class.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo" onclick="location.href='index.html'">
+                <img src="favicon copy.ico" class="logo-pics">
+
+                <span class="white"
+                    style="color: white; font-family: 'poppins','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">STUDY</span>
+                <span class="red"
+                    style="color: red;font-family: 'poppins','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">SPHERE</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="start strtsecnd">
+                <a  onclick="window.history.back()">Back</a>
+              </div>
+        </nav>
+        <div class="wrap">
+            <section id="services">
+                <span class="header">Choose Class </span>
+                <div class="row1">
+                    <div class="card " onclick="location.href='notAvail.html'">
+                        <header>
+
+                            1(Unavailable)
+                        </header>
+                    </div>
+                    <div class="card" onclick="location.href='notAvail.html'">
+                        <header>
+
+                            2(Unavailable)
+                        </header>
+                    </div>
+                    <div class="card" onclick="location.href='notAvail.html'">
+                        <header>
+                            3(Unavailable)
+                        </header>
+                    </div>
+
+                 
+                    <div class="card" onclick="location.href='notAvail.html'">
+                        <header>
+                            4(Unavailable)
+                        </header>
+                    </div>
+                    <div class="card" onclick="location.href='notAvail.html'">
+                        <header>
+                            5(Unavailable)
+                        </header>
+                    </div>
+                    <div class="card" onclick="location.href='notAvail.html'">
+                        <header>
+                            6(Unavailable)
+                        </header>
+                    </div>
+                    <div class="card" onclick="location.href='notAvail.html'">
+                        <header>
+                            7(Unavailable)
+                        </header>
+                    </div>
+                    <div class="card" onclick="location.href='notAvail.html'">
+                        <header>
+                            8(Unavailable)
+                        </header>
+                    </div>
+                    <div class="card" onclick="location.href='notAvail.html'">
+                        <header>
+                            9(Unavailable)
+                        </header>
+                    </div>
+                    <div class="card" onclick="goclass('ten')">
+                        <header>
+                            10
+                        </header>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- footer start  -->
+
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!--GOOGLE FONTS-->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+      </head>
+
+       <footer>
+          <div class="footer">
+            <div class="row">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <div class="row">
+              <ul>
+                <li><a href="index.html">Contact us</a></li>
+                <li><a href="index.html">Our Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+              </ul>
+            </div>
+
+            <div class="row">
+              <span>STUDYSPHERE</span> Copyright © 2024 StudySphere - All rights reserved || Designed By: Sahil Basnet and Team
+            </div>
+          </div> 
+        </footer>
+        <!-- footer end  -->
+    </div>
+    <script>
+        function getParameterByName(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+      }
+
+
+      const para = getParameterByName('a');
+      console.log('Parameter 1:', para);
+function goclass(){
+if(para=="mcq"){
+location.href="subject.html?a=mcq10";
+}
+else if(para=="model"){
+    location.href="subject.html?a=model10";
+
+}
+else{
+    location.href="subject.html?a=note10";
+
+}
+}
+    </script>
+</body>
+
+</html>
